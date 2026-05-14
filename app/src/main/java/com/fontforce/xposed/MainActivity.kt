@@ -31,6 +31,9 @@ import com.fontforce.xposed.ui.screens.AboutScreen
 import com.fontforce.xposed.ui.screens.AppsScreen
 import com.fontforce.xposed.ui.screens.HomeScreen
 import com.fontforce.xposed.ui.theme.FontForceTheme
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.lifecycle.viewmodel.compose.viewModel
+
 
 class MainActivity : ComponentActivity() {
     private val viewModel: MainViewModel by viewModels()
