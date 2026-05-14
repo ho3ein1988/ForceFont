@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Bold "F" letterform -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,24 L30,84 L40,84 L40,60 L64,60 L64,51 L40,51 L40,33 L68,33 L68,24 Z" />
+
+    <!-- Arrow accent — "force" concept -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"
+        android:pathData="M72,66 L80,58 L80,63 L88,63 L88,69 L80,69 L80,74 Z" />
+
+    <!-- Dot accent top-right — circle drawn as path (M cx,cy-r A r,r ...) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.45"
+        android:pathData="M74,31 A5,5 0 1 1 73.9999,31 Z" />
+
+</vector>
